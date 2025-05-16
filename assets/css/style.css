@@ -73,6 +73,7 @@ section {
 
 .section-title {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 50px;
     font-size: 2.5rem;
     color: var(--primary);
@@ -156,6 +157,20 @@ nav ul li a:hover:after {
     width: 100%;
 }
 
+nav ul li a.active {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+nav ul li a.active:after {
+    width: 100%;
+    background: var(--accent);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .mobile-menu-btn {
     display: none;
     background: none;
@@ -210,6 +225,7 @@ nav ul li a:hover:after {
 
 .about-text {
     flex: 1;
+    height: 100%;
 }
 
 .about-text h2 {
@@ -234,6 +250,7 @@ nav ul li a:hover:after {
     height: auto;
     display: block;
     transition: transform 0.5s ease;
+    object-fit: cover;
 }
 
 .about-image:hover img {
@@ -264,6 +281,7 @@ nav ul li a:hover:after {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
+
 
 .team-image {
     height: 200px;
@@ -455,6 +473,7 @@ nav ul li a:hover:after {
 
 /* Lábléc */
 footer {
+    padding: 40px 0 20px 0;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: var(--white);
     position: relative;
@@ -462,9 +481,8 @@ footer {
     
 }
 footer #contact {
-    background-color: var(--dark);
-    color: white;
-    padding: 50px 0 20px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    padding: 80px 0 30px;
 }
 
 
@@ -539,7 +557,8 @@ footer #contact {
 
 .footer-bottom {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -608,6 +627,12 @@ footer #contact {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .schedule-card h3 {
@@ -761,4 +786,10 @@ footer #contact {
         font-size: 1.5rem;
     }
 }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }

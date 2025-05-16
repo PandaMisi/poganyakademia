@@ -30,13 +30,16 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 header.classList.remove('scrolled');
             }
+            
+            // Update active nav item based on scroll position
+            updateActiveNavItem();
         });
 
         // Initialize header state
         header.classList.toggle('scrolled', window.scrollY > 100);
     }
 
-    // Sima görgetés anchor linkekhez
+    // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             const targetId = this.getAttribute('href');
@@ -53,9 +56,47 @@ document.addEventListener('DOMContentLoaded', function() {
                     top: targetPosition,
                     behavior: 'smooth'
                 });
+                
+                // Update active nav item
+                updateActiveNavItem(targetId);
             }
         });
     });
+
+    // Function to update active nav item
+    function updateActiveNavItem(targetId = null) {
+        if (targetId) {
+            // If targetId is provided, use that
+            document.querySelectorAll('nav ul li a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === targetId) {
+                    link.classList.add('active');
+                }
+            });
+        } else {
+            // Otherwise, determine based on scroll position
+            const sections = document.querySelectorAll('section');
+            let currentSection = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= (sectionTop - 100)) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            document.querySelectorAll('nav ul li a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+    }
+
+    // Initialize active nav item
+    updateActiveNavItem();
 
     // Galéria modal functionality
     const galleryItems = document.querySelectorAll('.gallery-item');

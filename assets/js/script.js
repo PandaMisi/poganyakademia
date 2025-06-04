@@ -138,4 +138,32 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+    
+    // Back to Top Button
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     const backToTopBtn = document.getElementById('backToTopBtn');
+        
+    //     function toggleBackToTop() {
+    //         if (window.scrollY > 300) {
+    //             backToTopBtn.classList.add('visible');
+    //         } else {
+    //             backToTopBtn.classList.remove('visible');
+    //         }
+    //     }
+
+    //     // Initial check
+    //     toggleBackToTop();
+
+    //     // Listen for scroll events
+    //     window.addEventListener('scroll', toggleBackToTop);
+
+    //     // Click handler
+    //     backToTopBtn.addEventListener('click', function() {
+    //         window.scrollTo({
+    //             top: 0,
+    //             behavior: 'smooth'
+    //         });
+    //     });
+    // });
 });
+

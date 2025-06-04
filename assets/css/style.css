@@ -674,16 +674,16 @@ footer #contact {
     position: relative;
 }
 
-.testimonial-card:before {
+/* .testimonial-card:before {
     content: '"';
     font-size: 5rem;
     color: var(--primary);
     opacity: 0.2;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: 5px;
     line-height: 1;
-}
+} */
 
 .testimonial-card p {
     position: relative;

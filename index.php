@@ -62,7 +62,7 @@
                     <a href="#contact" class="btn">Lépj velünk kapcsolatba</a>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Csapat összefogás">
+                    <img src="assets/img/img3.jpg" alt="Csapat összefogás">
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 <!-- Csapat 1 -->
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&   fit=crop&w=1000&q=80" alt="Haladó lány csapat">
+                        <img src="assets/img/u20lany1.jpg" alt="Haladó lány csapat">
                     </div>
                     <div class="team-info">
                         <h3>Haladó lány csapatunk</h3>
@@ -101,7 +101,7 @@
                 <!-- Csapat 2 -->
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&    fit=crop&w=1000&q=80" alt="Haladó fiú csapat">
+                        <img src="assets/img/u20fiu.jpg" alt="Haladó fiú csapat">
                     </div>
                     <div class="team-info">
                         <h3>Haladó fiú csapatunk</h3>
@@ -122,7 +122,7 @@
                 <!-- Csapat 3 -->
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&    fit=crop&w=1000&q=80" alt="Kezdő csapat">
+                        <img src="assets/img/img3.jpg" alt="Kezdő csapat">
                     </div>
                     <div class="team-info">
                         <h3>Kezdő csapatunk</h3>
@@ -142,92 +142,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="teams" id="teams">
-        <div class="container">
-            <h2 class="section-title">Csapataink</h2>
-            <div class="teams-grid">
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Felnőtt csapat">
-                    </div>
-                    <div class="team-info">
-                        <h3>Felnőtt csapat</h3>
-                        <p>Országos Bajnokság I.</p>
-                        <div class="team-stats">
-                            <div class="stat-item">
-                                <div class="stat-number">18</div>
-                                <div class="stat-label">Játékos</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">2</div>
-                                <div class="stat-label">Edző</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="U21 csapat">
-                    </div>
-                    <div class="team-info">
-                        <h3>U21 csapat</h3>
-                        <p>Ifjúsági Bajnokság</p>
-                        <div class="team-stats">
-                            <div class="stat-item">
-                                <div class="stat-number">15</div>
-                                <div class="stat-label">Játékos</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">1</div>
-                                <div class="stat-label">Edző</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="U18 csapat">
-                    </div>
-                    <div class="team-info">
-                        <h3>U18 csapat</h3>
-                        <p>Junior Bajnokság</p>
-                        <div class="team-stats">
-                            <div class="stat-item">
-                                <div class="stat-number">14</div>
-                                <div class="stat-label">Játékos</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">1</div>
-                                <div class="stat-label">Edző</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kezdők csapata">
-                    </div>
-                    <div class="team-info">
-                        <h3>Kezdők csapata</h3>
-                        <p>Helyi Liga</p>
-                        <div class="team-stats">
-                            <div class="stat-item">
-                                <div class="stat-number">16</div>
-                                <div class="stat-label">Játékos</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">2</div>
-                                <div class="stat-label">Edző</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    
 
     <!-- Edzések rész -->
     <section class="training" id="training">
@@ -243,22 +158,23 @@
                     <ul>
                         <li>Hétfő: 18:30 - 20:30</li>
                         <li>Szerda: 18:30 - 20:30</li>
-                        <li>Péntek: 16:00-18:00</li>
+                        <li>Péntek: 15:45 - 17:00</li>
                     </ul>
-                    <p><strong>Edzések helyszíne:</strong></p>
-                    <p>1183 Budapest, Thököly út 11 - BKSZC Pogány Frigyes Technikum tornaterme</p>
+                    <p><strong><br>Edzések helyszíne:</strong></p>
+                    <p>1183 Budapest, Thököly út 11</p>
                 </div>
 
                 <div class="schedule-card">
                     <h3>Haladó fiú edzések</h3>
                     <p><strong>Edzések időpontja:</strong></p>
                     <ul>
+                        <li>Hétfő: 17:00 - 18:30</li>
                         <li>Kedd: 19:00 - 20:30</li>
-                        <li>Csütörtök: 18:30 - 20:30</li>
-                        <li>Péntek: 16:00-18:00</li>
+                        <li>Szerda: 19:00 - 20:30</li>
+                        <li>Péntek: 16:45 - 18:00</li>
                     </ul>
                     <p><strong>Edzések helyszíne:</strong></p>
-                    <p>1183 Budapest, Thököly út 11 - BKSZC Pogány Frigyes Technikum tornaterme</p>
+                    <p>1183 Budapest, Thököly út 11</p>
                 </div>
 
                 <div class="schedule-card">
@@ -268,8 +184,8 @@
                         <li>Kedd: 17:00 - 18:00</li>
                         <li>Csütörtök: 17:00 - 18:00</li>
                     </ul>
-                    <p><strong>Edzések helyszíne:</strong></p>
-                    <p>1183 Budapest, Thököly út 11 - BKSZC Pogány Frigyes Technikum tornaterme</p>
+                    <p><strong><br><br>Edzések helyszíne:</strong></p>
+                    <p>1183 Budapest, Thököly út 11</p>
                 </div>
             </div>
         </div>
@@ -280,7 +196,7 @@
     <!-- Meccs menetrend -->
     <section class="schedule" id="schedule">
         <div class="container">
-            <h2 class="section-title">Következő meccseink</h2>
+            <h2 class="section-title">Meccseink</h2>
             <table class="schedule-table">
                 <thead>
                     <tr>

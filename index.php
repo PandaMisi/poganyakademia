@@ -253,7 +253,7 @@
                     <p>Edzőink több diplomás egyetemet végzett szakemberek, akik nem csak a sportszakma, de a pedagógia módszereit is alkalmazzák, annak érdekében, hogy ne csak fizikálisan neveljenek sportolókat.</p>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Egyesület története">
+                    <img src="assets/img/img2.jpg" alt="Egyesület története">
                 </div>
             </div>
         </div>
@@ -261,12 +261,14 @@
 
     <!-- Szponzorok rész -->
 	<section class="sponsors" id="sponsors">
-	    <div class="container">
+            <div class="container">
 	        <h2 class="section-title">Szponzoraink</h2>
 	        <div class="sponsors-grid">
-	            <div class="sponsor-item">
-	                <img src="assets/img/bkszc.png" alt="BKSZC">
-	            </div>
+                <a href="https://www.bkszc.hu/">
+	                <div class="sponsor-item">
+	                    <img src="assets/img/bkszc.png" alt="BKSZC">
+	                </div>
+                </a>
 	            <!-- Add more sponsor items as needed -->
 	        </div>
 	    </div>
@@ -290,7 +292,7 @@
     </section>
 
     <!-- Galéria rész -->
-    <section class="gallery" id="gallery">
+    <!-- <section class="gallery" id="gallery">
         <div class="container">
             <h2 class="section-title">Galéria</h2>
             <div class="gallery-grid">
@@ -332,7 +334,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Lábléc -->
     <footer id="contact">
